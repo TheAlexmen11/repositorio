@@ -51,6 +51,49 @@
 
 
 /*===============Tarjets================*/
+main{
+    background-color: rgb(34, 34, 34);
+}
+.main-section{
+    position: relative;
+    height:40vh;
+}
+.section-tarjets{
+    display: flex;
+    position: absolute;
+    top: -9rem;
+    
+}
 .tarjet{
-    background-color: rgb(255, 208, 0);
+    background-color: rgba(255, 208, 0, 0.719);
+    width:30%;
+    height: 25rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+.section-tarjets-info{
+    display: flex;
+    top: -9rem;
+    
+}
+.tarjet-info{
+    background-color:  rgb(34, 34, 34);
+    width:30%;
+    height: 25rem;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer > p {
+    padding: 3rem;
 }
