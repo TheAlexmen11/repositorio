@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+:root{
+
+}
+.header-main{
+    background-color: black;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/*==========HEADER===============*/
+.nav-main > div{
+    margin-top: 4rem;
+}
+
+.nav-main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.nav-main > ul{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.nav-list > li{
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.nav-list > li > a {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.nav-list > li > a:hover{
+    color: rgb(255, 196, 4);
+}
+
+/*==========CONTENIDO================*/
+.contenido{
+    color: white;
+    text-align: center;
+}
+
+
+
+/*===============Tarjets================*/
+.tarjet{
+    background-color: rgb(255, 208, 0);
+}
