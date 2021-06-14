@@ -76,7 +76,7 @@ main{
 }
 .main-section{
     position: relative;
-    height:40vh;
+    height:45vh;
 }
 .section-tarjets{
     display: flex;
@@ -87,7 +87,7 @@ main{
 .tarjet{
     background-color: rgba(255, 208, 0, 0.719);
     width:30%;
-    height: 25rem;
+    height: 30rem;
     margin: 1rem;
     padding: 1rem;
     color: white;
@@ -97,11 +97,27 @@ main{
     width: 100%;
 }
 
+
+.btn-tema{
+    color: white;
+    text-decoration:none;
+    margin: 1rem;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: 0.2rem;
+    padding: 1rem 1rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 12px rgb(59, 59, 59);
+
+}
+
 .imgTema2{
     margin: 0 auto;
     width: 40%;
     display: flex;
 }
+
 .lista-web{
     text-align: left;
     margin-left: 2rem;
