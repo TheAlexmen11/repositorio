@@ -33,6 +33,7 @@
     display: flex;
     justify-content: center;
     color: white;
+    list-style: none;
 }
 .nav-list > li{
     margin: 1rem;
@@ -92,13 +93,22 @@ main{
     color: white;
     text-align: center;
 }
+.tarjet img{
+    width: 100%;
+}
 
-
-
+.imgTema2{
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+}
+.lista-web{
+    text-align: left;
+    margin-left: 2rem;
+}
 .section-tarjets-info{
     display: flex;
     top: -9rem;
-    
 }
 .tarjet-info{
     background-color:  rgb(34, 34, 34);
