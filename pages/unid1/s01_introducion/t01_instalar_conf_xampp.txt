@@ -1,0 +1,23 @@
+1. Silabo contenido a desarrollar
+    - Unidad I: Diseño de aplicaciones web desde fundamentos básicos
+	- HTML (HyperText Markup Language, lenguaje de marcas de Hypertexto)
+	- CSS (Cascading StyleCheets, Hojas de estilo en cascada)
+	- JS (JavaScript, lenguaje de programación lado cliente)
+	- Aplicaciones con ventanas de dialogo con 
+	- Paginas validadas con atributos HTML
+	- Paginas validadas con JS
+	- GIT (Software de control de versiones)
+
+    - Unidad II: Librerías y Framework desde el Frontend
+	- Libreria
+    - Unidad III: Aplicaciones web en base a plataformas
+
+1. Descargar e instalar XAMPP
+    - Link para descargar e instalar XAMPP
+    - Configurar algunos conflictos (IIE, SQLServer, VMWare(M.V.), 
+    - Crear su 	
+
+2. Configurar
+    - Agregar plugins para idioma
+    - Agregar plugins para visualizar mejor el codigo
+    - Agregar plugins para autocompletado

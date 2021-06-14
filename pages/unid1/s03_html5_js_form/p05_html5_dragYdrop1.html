@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="rr/dragYdrop1.css" type="text/css">
+    <title>Drag ¬ Drop</title>
+</head>
+<body>
+    <script  src="rr/dragYdrop1.js" type="text/javascript"></script>
+    <header>
+        <h1>Un ejemplo del uso de Drag & Drop en Html</h1>
+    </header>
+    <section>
+        <div id="cuadro1" ondragenter="return enter(event)" ondragover="return over(event)" ondragleave="return leave(event)" ondrop="return drop(event)">
+            <div class="cuadradito" id="arrastrable1" draggable="true" ondragstart="start(event)" ondragend="end(event)">1</div>
+            <div class="cuadradito" id="arrastrable2" draggable="true" ondragstart="start(event)" ondragend="end(event)">2</div>
+            <div class="cuadradito" id="arrastrable3" draggable="true" ondragstart="start(event)" ondragend="end(event)">3</div>        
+        </div>
+        <div id="cuadro2" ondragenter="return enter(event)" ondragover="return over(event)" ondragleave="return leave(event)" ondrop="return drop(event)"> </div>
+        <div id="cuadro3" ondragenter="return enter(event)" ondragover="return over(event)" ondragleave="return leave(event)" ondrop="return clonar(event)">
+        Clonadora
+        </div>
+        <div id="papelera" ondragenter="return enter(event)" ondragover="return over(event)" ondragleave="return leave(event)" ondrop="return eliminar(event)">
+            Papelera</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/estilosEval1.css">
+	<script src="js/prueba.js"></script>
+</head>
+<body>
+	<h1>Aplicación 2 - Validación con lenguaje de programación JavaScript</h1>
+
+	<div id="content">
+	<form action="p00_validada.php" method="post" onsubmit="return fnValidar02();">
+		<table>
+			<tr>
+				<th colspan="2" class="titulo">Aplicación 2 - Validación con JavaScript</th>
+			</tr>
+			<tr>
+				<td id="tdIzq">Texto* (1 punto):</td>
+				<td id="tdDer"><input type="text" name="txtTexto" id="txtTexto" value="" ></td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Elija Género* (1 punto):</td>
+				<td id="tdDer">
+					<input type="radio" name="radEstado" id="radEstado" value="" > Masculino
+					<input type="radio" name="radEstado" id="radEstado" value="" > Femenino
+				</td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Elija dos preferencias (3 puntos):</td>
+				<td id="tdDer">
+					<input type="checkbox" name="chkPrefer[]" id="chkPrefer[]" value="M">Música
+					<input type="checkbox" name="chkPrefer[]" id="chkPrefer[]" value="C">Cine
+					<input type="checkbox" name="chkPrefer[]" id="chkPrefer[]" value="T">Televisión
+					<input type="checkbox" name="chkPrefer[]" id="chkPrefer[]" value="N">Natación
+				</td>
+			</tr>
+			<th colspan="2" class="subTitulo">
+				<input class="boton" type="submit" name="btnVer" value="Pasar">
+			</th>
+			
+		</table>
+
+	</form>
+	</div>
+</body>
+</html>

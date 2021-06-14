@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(221, 180, 0);
+        }
+        main{
+            border: 1px solid black;
+            background-color: rgba(255, 228, 196, 0.281);
+            border-radius: 10px;
+            width: 50%;
+            height: 500px;
+        }
+        header{
+            font-size: 30px;
+            border: 1px solid black;
+            background-color: rgba(238, 169, 20, 0.294);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            border: 1px solid rgb(0, 0, 0);
+            background-color: rgba(231, 217, 21, 0.459);
+            padding: 10px;
+            margin: 10px;
+        }
+        aside{
+            border: 1px solid black;
+            background-color: rgba(23, 103, 231, 0.452);
+            width: 200px;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            border: 1px solid black;
+            background-color: rgba(20, 212, 238, 0.459);
+            padding: 10px;
+            margin: 10px;
+        }
+        img{
+            margin: 20px auto;  
+            width: 200px;
+            height:200px;
+        }
+        .content{
+            margin: 50px auto;
+            width: 80%;
+            height: 700px;
+            padding: 10px;
+            border: 2px solid rgb(255, 0, 0);
+            background-color: rgba(0, 0, 0, 0.411);
+            border-radius: 10px;
+        }
+        .articulos{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        article{
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: 100%;
+            height: 200px;
+            background-color: rgba(10, 119, 82, 0.52);
+        }
+        div{    
+            color: aliceblue;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .dividir{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="imagen">
+        <img src="/unid1/s02_pag_html_js/img/html4_html5.png" alt="pikachu">
+    </div>
+    <div class="content">
+        <header>Cabecera</header>
+        <nav>Menu(Navegar)</nav>
+        <div class="dividir">
+            <main>principal
+                <div class="articulos">
+
+                    <article>articulo 1</article>
+                    <article>articulo 2</article>
+
+                </div>
+            </main>
+            <aside>aparte</aside>
+        </div>
+        <footer>Pie de pagina</footer>
+    </div>
+</body>
+</html>

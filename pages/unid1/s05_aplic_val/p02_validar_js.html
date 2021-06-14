@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/estilosTema5.css">
+	<script src="js/form02funciones.js"></script>
+</head>
+<body>
+	<h1>Aplicación 2 - Validación con JavaScript</h1>
+ 
+	<div id="content">
+	<form action="p00_validada.php" method="post" onsubmit="return fnValidar02();">
+		<table>
+			<tr>
+				<th colspan="2" class="titulo">Aplicación 2 - Validación con JavaScript</th>
+			</tr>
+			<tr>
+				<td id="tdIzq">Nombres*:</td>
+				<td id="tdDer"><input type="text" name="txtNombres" id="txtNombres" value=""></td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Apellidos*:</td>
+				<td id="tdDer"><input type="text" name="txtApellidos" id="txtApellidos" value=""></td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Dirección*:</td>
+				<td id="tdDer"><input type="text" name="txtDireccion" id="txtDireccion" value=""></td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Edad*:</td>
+				<td id="tdDer"><input type="number" name="txtEdad" id="txtEdad" value=""></td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Fecha de nacimiento*:</td>
+				<td id="tdDer"><input type="date" name="fecNac" id="fecNac" value=""></td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Genero*:</td>
+				<td id="tdDer">
+					<input type="radio" name="rdGenero" id="rdGenero" value="M"> Masculino
+					<input type="radio" name="rdGenero" id="rdGenero" value="F"> Femenino
+				</td>
+			</tr>
+			<tr>
+				<td id="tdIzq">Estado civil:</td>
+				<td id="tdDer">
+					<select name="lstEstado" id="lstEstado">
+						<option value="">Seleccione...</option>
+						<option value="S">Soltero(a)</option>
+						<option value="C">Casado(a)</option>
+						<option value="D">Divorciado(a)</option>
+						<option value="V">Viudo(a)</option>
+					</select>
+				</td>
+			</tr>
+			<th colspan="2" class="subTitulo">
+				<input class="boton" type="submit" name="btnVer" value="Pasar">
+			</th>
+			
+		</table>
+
+	</form>
+	</div>
+</body>
+</html>

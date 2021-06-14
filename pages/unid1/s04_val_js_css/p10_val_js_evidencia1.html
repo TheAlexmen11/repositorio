@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<script src="js/form10evidencia.js"></script>
+		<link rel="stylesheet" href="css/estilotarea.css">
+	</head>
+	<body>
+		<section class="contenedor">
+			<h1>Validar el formulario </h1>
+
+			<form action="p00_validada.php" method="post" onsubmit="return fnValidar10();">
+				<h3> Datos generales </h3>
+				<label for="txtname">Nombres y Apellidos</label>
+				<input type="text" value="" id="txtname" name="txtname">
+				<label for="">Edad</label>
+				<input type="number" value="" id="txtedad" name="txtedad">
+				
+				<h3> Elija mínimo dos opciones </h3>
+				<div>
+					<input type="checkbox" value="M" id="listCkeck[]" name="listCkeck[]">
+					<label for="">Música</label>
+				</div>
+				<div>
+					<input type="checkbox" value="P" id="listCkeck[]" name="listCkeck[]">
+					<label for="">Pelicula</label>
+				</div>
+				<div>
+					<input type="checkbox" value="D" id="listCkeck[]" name="listCkeck[]">
+					<label for="">Deporte</label>
+				</div>
+				<div>
+					<input type="checkbox" value="T" id="listCkeck[]" name="listCkeck[]">
+					<label for="">Teatro</label>
+				</div>
+				<div>
+					<input type="checkbox" value="N" id="listCkeck[]" name="listCkeck[]">
+					<label for="">No responde</label>
+				</div>
+				<h3> Elija mínimo dos opciones </h3>
+				<select name="combobox" id="combobox">
+				   <option value=""> Seleccione... </option>
+				   <option value="M"> Música </option>
+				   <option value="P"> Películas </option>
+				   <option value="D"> Deporte </option>
+				   <option value="T"> Teatro </option>
+				   <option value="N"> No responde </option>
+			   </select>
+			   <select name="combobox1" id="combobox1">
+					<option value=""> Seleccione... </option>
+					<option value="M"> Música </option>
+					<option value="P"> Películas </option>
+					<option value="D"> Deporte </option>
+					<option value="T"> Teatro </option>
+					<option value="N"> No responde </option>
+				</select>
+				 <input type="submit" name="btnVer" value="Pasar">
+			</form>
+			
+
+		</section>
+	</body>
+</html>

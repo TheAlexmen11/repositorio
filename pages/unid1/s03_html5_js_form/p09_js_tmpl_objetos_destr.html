@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //definicion de onjetos
+        const persona ={
+            nombre: 'juan',
+            edad: 20,
+            estado: true,
+            caracteristicas: ["moreno","165cm",60]
+        }
+        //agregando un atributo / propiedad
+        persona.dni = 29292929;
+
+        //lectura de primera forma
+        console.log(persona);
+        let xNombre = persona.nombre;
+        console.log(xNombre);
+
+        let xEdad = persona.edad;
+        console.log(xEdad);
+
+        let xEstatura = persona.edad;
+        console.log(xEstatura);
+
+        //lectura segunda forma
+        const {nombre,edad,dni}=persona;
+        console.log(nombre);
+        console.log(edad);
+        console.log(dni);
+
+        //lectura tercera forma con comilla invertida(alt+96)
+        alert("el nombre es: "+nombre);
+        alert("la edad es: "+edad);
+        alert(`El Nombre es: ${nombre} y EDAD es ${edad}`);
+
+    </script>
+</body>
+</html>

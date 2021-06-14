@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/estilosTema5.css">
+	<script src="js/arrayAlumnos.js"></script>
+	<script src="js/form03funcion.js"></script>
+</head>
+<body>
+	<h1>Aplicación 3 - Ventanas</h1>
+	<div id="content">
+	<script>
+		 var valor = prompt("ingrese .")
+		 if(valor > 0 && valor <= alumnos.length){
+			 for(var i=0;i<valor;i++){
+				console.log("ingrese al bucle:::::");
+				num = alumnos[i][0];
+				nom = alumnos[i][1];
+				ape = alumnos[i][2];
+				tur = fnTurno(alumnos[i][3]);
+				res = "( "+(i+1) + "/" + alumnos.length+")";
+				fnGenerarTabla(res,num,nom,ape,tur,res);
+			 }
+		 }else{
+			 alert("solo tiene registrado "+alumnos.length+" alumnos");
+			 document.writeln("<h2>Intentelo nuevamente </h2>")
+		 }
+	</script>
+	</div>
+</body>
+</html>

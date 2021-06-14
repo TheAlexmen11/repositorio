@@ -1,0 +1,26 @@
+*{margin: 0 auto; padding: 0; border: 0px;}
+h1{text-align: center;font-size: 3rem;margin-bottom: 20px;}
+.titulo{background-color: rgb(20, 168, 173); height: 45px; border-radius: 0.5rem;}
+.subTitulo{background-color: rgb(66, 163, 74); height: 35px;}
+.boton{color: white; font-size: 20px; height: 35px;}
+.titulo, .subTitulo{color: white; font-size: 30px;}
+select{color: grey; font-size: 20px; height: 35px;}
+
+table{padding: 0px; background-color: gold; width: 100%;}
+input{background: transparent; border: transparent;}
+#content{background-color: rgba(116, 116, 116, 0.349); width: 60%;border-radius: 1rem;padding: 1.5rem;margin-top:70px;}
+
+#tdIzq{background-color: rgb(42, 187, 42); text-align: right;}
+#tdDer{background-color: rgb(250, 194, 91);}
+
+input, #tdIzq, #tdDer, select{height: 25px;}
+#tdIzq, #tdDer{width: 50%;} 
+
+#marco{border: 1px dashed green;}
+#marco td{border-right: 1px dashed red; border-top: 1px dashed red; }
+#marco th{border-right: 1px dashed red;}
+img{width: 75px;}
+
+/* Sobreponer mouse */
+.boton:hover{background-color: violet; width: 100%;}
+select:hover{background-color: orange; width: 75%; color: blue;}

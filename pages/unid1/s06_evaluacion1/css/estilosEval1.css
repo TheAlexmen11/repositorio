@@ -1,0 +1,26 @@
+*{margin: 0 auto; padding: 0; border: 0px;}
+
+.titulo{background-color: rgb(18, 78, 173); height: 45px;}
+.subTitulo{background-color: rgb(25, 163, 197); height: 35px;}
+.boton{color: white; font-size: 20px; height: 35px;}
+.titulo, .subTitulo{color: white; font-size: 30px;}
+select{color: grey; font-size: 20px; height: 35px;}
+
+table{padding: 0px; background-color: gold; width: 100%;}
+input{background: transparent; border: transparent;}
+#content{background-color: chartreuse; width: 60%;}
+
+#tdIzq{background-color: darkorange; text-align: right;}
+#tdDer{background-color: rgb(250, 194, 91);}
+
+input, #tdIzq, #tdDer, select{height: 25px;}
+#tdIzq, #tdDer{width: 50%;}
+
+#marco{border: 1px dashed rgb(17, 116, 17);}
+#marco td{border-right: 1px dashed red; border-top: 1px dashed red; }
+#marco th{border-right: 1px dashed red;}
+img{width: 75px;}
+
+/* Sobreponer mouse */
+.boton:hover{background-color: violet; width: 100%;}
+select:hover{background-color: orange; width: 75%; color: blue;}

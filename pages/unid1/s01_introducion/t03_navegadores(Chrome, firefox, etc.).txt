@@ -1,0 +1,13 @@
+1. Navegador recomendado: Chrome y Firefox
+2. Borrar historial en Chromo:
+    - En menu hormiga (tres puntos verticales)
+    - /Historial/Historial/
+    - Borrar datos de navegación
+    - Pestaña configuración avanzada
+    - Activar de preferencia todos los check
+    - Borrar datos
+    - Cerrar cada ventana
+
+3. Función de desarrollador.
+    - F12. herramienta de desarrolladores
+    - Ctrl + U. Activa "Ver código fuente de la página"

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/estilosTema5.css">
+	<script src="js/form07funciones.js"></script>
+	<script src="js/arrayAlumnos.js"></script>
+</head>
+<body>
+<div id="content">
+	<form action="p00_validada.php" method="post" >
+	<table>
+		<tr> 
+			<th colspan="2" class="titulo">Aplicación 7 - Formulario lista con 1 criterio</th>
+		</tr>
+		
+		<tr>
+			<td id="tdIzq">Seleccione turno:</td>
+			<td id="tdDer">
+				<select name="lstTurno" id="lstTurno" onchange="verTablas(this.value,this.alumnos);">
+					<option value="">Seleccione...</option>
+					<option value="M">Turno día</option>
+					<option value="N">Turno noche</option>
+					<option value="T">Tarde</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2"><div name="marco" id="marco">Resultado aqui...</div></td>
+		</tr>
+		<th colspan="2" class="subTitulo">
+			<input class="boton" type="reset" name="btnVer" onclick="borrarMarco();" value="Borrar">
+		</th>
+	</table>
+	</form>
+</div>
+</body>
+</html>

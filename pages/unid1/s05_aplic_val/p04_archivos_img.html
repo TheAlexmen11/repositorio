@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/estilosTema5.css">
+	<script src="js/form04valida.js"></script>
+</head>
+<body>
+<div id="content">
+	 <form action="p00_validada.php" method="post" onsubmit="return fnValidar04();">
+		<table>
+
+			<tr>
+				<th colspan="2" class="titulo">Aplicacion 4 - archivos tipo imagenes , pdf , etc.</th>
+			</tr>
+			<tr>
+			   <td id="tdIzq">Seleccione archivos JPG o PNG:</td>
+			   <td id="tdDer"><input type="file" name="fileImagen" accept=".jpg ,.png"  value=""></td>
+		   </tr>
+			<tr>
+				<td id="tdIzq">Seleccione cualquier imagen;</td>
+				<td id="tdDer"><input type="file" name="fileImagen" accept="image/*" value=""></td>
+			</tr>
+			<tr>
+			   <td id="tdIzq">Seleccione cualquier archivo;</td>
+			   <td id="tdDer"><input type="file" name="filePDF" accept=".pdf" value=""></td>
+		   </tr>
+		   <tr>
+			   <td id="tdIzq">Escribir un correo valido:</td>
+			   <td id="tdDer"><input type="text" name="txtcorreo"  id="txtcorreo" value=""></td>
+		   </tr>
+		   <th colspan="2" class="subtitulo">
+			   <input class="boton" type="submit" name="btnVer" value="Pasar">
+		   </th>
+		</table>
+	 </form>
+	 <iframe src="" frameborder="0"></iframe>
+</div>
+</body>
+</html>

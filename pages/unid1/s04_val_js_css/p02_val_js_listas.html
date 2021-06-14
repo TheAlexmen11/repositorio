@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<script src="js/form02valida.js"></script>
+	</head>
+	<body>
+		<h1>Validar listas</h1>
+		
+		<form action="p00_validada.php" method="post" onsubmit="return fnValidar02();">
+			<h3>Seleccione una preferencia</h3>
+			<select name="combobox" id="combobox">
+				<option value=""> Seleccione... </option>
+				<option value="M"> Música </option>
+				<option value="P"> Películas </option>
+				<option value="D"> Deporte </option>
+				<option value="T"> Teatro </option>
+				<option value="N"> No responde </option>
+			</select>
+
+			<h3>Seleccione mes actual</h3>
+			<select name="ltsMes" id="ltsMes">
+				<option value=""> Seleccione... </option>
+				<script>
+					var mes = Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio",
+					"Agosto","Setiembre","Octibre","Noviembre","Diciembre");
+					for(var i=0; i<mes.length; i++){
+						mm=mes[i];
+						//En lugar de comillas (") para el texto en la función write(...) se esta usando (`)
+						//con (alt + 96) para poner lógica o variables dentro de texto <option...>...</option>
+						document.write(`<option value="${mm}"> Mes de ${mm} </option>`);
+					}
+
+				</script>
+			</select>
+			
+			<p> <input type="submit" name="btnVer" value="Pasar"></p>
+		</form>
+	</body>
+</html>

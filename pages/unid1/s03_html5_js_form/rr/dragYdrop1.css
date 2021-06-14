@@ -1,0 +1,55 @@
+body{
+    background: #303030;
+}
+
+h1 {
+    color: #CA7218;
+}
+  
+#cuadro1, #cuadro2, #cuadro3, #papelera {
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cuadro1{
+    background: #55f;
+}
+  
+#cuadro2 {
+    background: #5f5;
+}
+  
+#cuadro3 {
+    background: #f55;
+}
+  
+#papelera {
+    background: #5ff;
+}
+  
+.cuadradito {
+    background: #288;
+    border: 2px solid #882;
+    width: 5px;
+    height: 5px;
+    padding: 0 10px 15px;
+    margin: 5px;
+}
+  
+#arrastrable1 {
+    background: #228;
+    border: 2px solid #822;
+}
+  
+#arrastrable2 {
+    background: #282;
+    border: 2px solid #228;
+}
+  
+#arrastrable3 {
+    background: #822;
+    border: 2px solid #282;
+}  

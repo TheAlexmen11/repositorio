@@ -1,0 +1,21 @@
+*{margin: 0 auto; padding: 0; border: 0px;}
+
+.titulo{background-color: rgb(0, 95, 16); height: 45px;}
+.subTitulo{background-color: rgb(4, 136, 15); height: 35px;}
+.boton{color: white; font-size: 20px; height: 35px;}
+.titulo, .subTitulo{color: white; font-size: 30px;}
+
+table{padding: 0px; border: 0px;}
+input{background: transparent; border: transparent;}
+#content{background-color: chartreuse;}
+table, #content{width: 60%;}
+
+#tdIzq{background-color: darkorange; text-align: right;}
+#tdDer{background-color: rgb(250, 194, 91);}
+
+input, .tdIzq, .tdDer{height: 25px;}
+#tdIzq, #tdDer{width: 50%;}
+
+.boton:hover{background-color: violet; width: 100%;}
+
+#marco{border: 1px dashed green;}

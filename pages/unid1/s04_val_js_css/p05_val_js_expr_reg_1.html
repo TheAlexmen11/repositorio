@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/estilos.css">
+		<script src="js/form05valida.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<form  action="p00_validada.php" method="POST" onsubmit="return fnValidar05();">
+			<table>
+				<tr>
+					<th colspan="2" class="titulo">Expresiones regulares</th>
+				</tr>
+
+				<tr>
+					<td id="tdIzq">Escribir números en grupos de tres (separados por un espacio):</td>
+					<td id="tdDer"><input type="text" value="" id="txtgrupoTexto" name="txtgrupoTexto"></td>
+				</tr>
+
+				<tr>
+					<td id="tdIzq">Escriba nueve números:</td>
+					<td id="tdDer"><input type="number" value="" id="txtnueveNumeros" name="txtnueveNumeros"></td>
+				</tr>
+				
+				<tr>
+					<td id="tdIzq">Escriba un teléfono fijo, serie 054 y 055(separado por un espacio):</td>
+					<td id="tdDer"><input type="text" value="" id="txtNumTelephone" name="txtNumTelephone"></td>
+				</tr>
+
+				<th colspan="2" class="subTitulo">
+					<input class="boton" type="submit" name="btnVer" value="Pasar">
+				</th>
+			</table>
+			</form>
+		</div>
+	</body>
+</html>

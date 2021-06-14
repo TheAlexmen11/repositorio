@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+}
+body{
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.menuCSS3 ul {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 2em;
+    background-color: #05c5ff86;
+    text-decoration: none;
+    color: #191C26;
+    border: 1px solid black;
+}
+.menuCSS3 a:hover {
+    background-color: #3b8bcc;
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
