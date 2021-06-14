@@ -3,6 +3,8 @@
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
+
+/*Vmin para font-size para que la letra se adapte*/
 :root{
 
 }
@@ -10,6 +12,8 @@
     background-image: url(../img/bg-header.png);
     background-color: black;
     background-attachment: fixed;
+    background-size: cover;
+    background-position:center center;
     height: 100vh;
 }
 
@@ -34,15 +38,29 @@
     margin: 1rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
+    position: relative;
 }
 .nav-list > li > a {
     font-size: 1.3rem;
     padding: 1rem;
+
 }
 .nav-list > li > a:hover{
     color: rgb(255, 196, 4);
 }
-
+.nav-list li > a::before{
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: rgb(255, 153, 0);
+    position: absolute;
+    bottom: -0.5rem;
+    right: 0px;
+    transition: 0.4s ease-in-out ;
+}
+.nav-list li:hover a::before{
+    width: 100%;
+}
 /*==========CONTENIDO================*/
 .contenido{
     color: white;
