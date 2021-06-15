@@ -1,0 +1,9 @@
+.contenedor1{
+    background-color: aqua;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor1 div{background-color: gold; margin: 10px 5px; padding: 5px; width: 50px;}

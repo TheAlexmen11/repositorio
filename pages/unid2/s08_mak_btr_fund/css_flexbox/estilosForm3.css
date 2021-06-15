@@ -1,0 +1,39 @@
+.contenedor1{
+    background-color: aqua;
+    display: flex;
+    height: 200px;
+    align-items: center;
+}
+.contenedor1 div{background-color: gold; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor2{
+    background-color: tomato;
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+}
+.contenedor2 div{background-color: gold; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor3{
+    background-color: yellowgreen;
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+}
+.contenedor3 div{background-color: gold; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor4{
+    background-color: blue;
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+}
+.contenedor4 div{background-color: gold; margin: 10px 5px; padding: 5px; width: 50px;}
+
+.contenedor5{
+    background-color: red;
+    display: flex;
+    height: 200px;
+    align-items: baseline;
+}
+.contenedor5 div{background-color: gold; margin: 10px 5px; padding: 5px; width: 50px;}
