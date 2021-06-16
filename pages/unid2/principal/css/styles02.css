@@ -47,13 +47,13 @@
 
 }
 .nav-list > li > a:hover{
-    color: rgb(121, 255, 4);
+    color: rgb(196, 68, 255);
 }
 .nav-list li > a::before{
     content: '';
     width: 0;
     height: 4px;
-    background-color: rgb(145, 255, 0);
+    background-color: rgb(234, 0, 255);
     position: absolute;
     bottom: -0.5rem;
     right: 0px;
@@ -94,7 +94,9 @@
 /*=============ARTICLE==================*/
 article{
     width: 70%;
-    background-color: #458105;
+    background-color: #0004ff23;
+    border: 1px solid black;
+    border-radius: 1rem;
 }
 .section-iframe{
     margin: 0 auto;
@@ -109,30 +111,31 @@ article{
 }
 .article-main h1{
     font-size: 3rem;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     text-decoration:underline;
 }
 /*=================ASIDE===============*/
 aside{
     width: 30%;
-    background: rgb(90,251,165);
-    background: radial-gradient(circle, rgba(90,251,165,1) 0%, rgba(23,131,41,1) 100%);
+    background: #503697;
     padding-left: .9rem;
+    border: 1px solid black;
+    border-radius: 1rem;
 }
 aside li{
 list-style: none;
 }
 aside a{
     display: block;
-    background-color: #6FCD00;
+    background-color: #2b58d3;
     padding: 1rem;
     margin: 1rem;
     box-shadow: 8px 8px 11px -4px rgba(0,0,0,0.63);
 }
 aside a:hover{
-    color: rgb(195, 255, 0);
-    background-color: #5ca805;
+    color: rgb(0, 204, 255);
+    background-color: #10368f;
 }
 
 

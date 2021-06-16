@@ -6,11 +6,13 @@
 
 /*Vmin para font-size para que la letra se adapte*/
 :root{
-
+    --first-color: hsl(221, 44%, 29%);
+    --first-color-second: hsl(196, 62%, 42%);
+    --first-color-alt: hsl(196, 89%, 57%); ;
+    --first-color-lighter: ;
 }
 .header-main{
     background-image: url(../img/bg-unid01.jpg);
-    background-color: black;
     background-attachment: fixed;
     background-size: cover;
     background-position:center center;
@@ -94,7 +96,7 @@
 /*=============ARTICLE==================*/
 article{
     width: 70%;
-    background-color: #070034;
+    background-color: var(--first-color) ;
 }
 .section-iframe{
     margin: 0 auto;
@@ -116,7 +118,7 @@ article{
 /*=================ASIDE===============*/
 aside{
     width: 30%;
-    background-color: #012D98;
+    background-color: var(--first-color-second);
     padding-left: .9rem;
 }
 aside li{
@@ -124,14 +126,14 @@ list-style: none;
 }
 aside a{
     display: block;
-    background-color: rgb(34, 93, 255);
+    background-color: var(--first-color-alt);
     padding: 1rem;
     margin: 1rem;
     box-shadow: 8px 8px 11px -4px rgba(0,0,0,0.63);
 }
 aside a:hover{
     color: aqua;
-    background-color: #3381ff;
+    background-color: #2153a5;
 }
 
 
