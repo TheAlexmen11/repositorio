@@ -1,1 +1,21 @@
+.contenedor1{
+    background-color: aqua;
+    display: flex;
+}
+.contenedor1 div{
+    background-color: blanchedalmond;
+    color: teal;
+    margin: 5px;
+    padding: 5px;
+    flex-basis: 100px;
+}
+@media (max-width: 600px){
+    .contenedor1{
+        flex-direction: column;
+    }
+    .contenedor1 div{
+        /*width: 95%;*/
+        flex-basis: 100%;
+    }
 
+}
