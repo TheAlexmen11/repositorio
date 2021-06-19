@@ -76,7 +76,27 @@
     color: white;
     text-align: center;
 }
-
+.content-decripcion p{
+    width: 50%;
+    margin: 2rem auto;
+    height: 100%;
+}
+.content-info{
+    display: flex;
+}
+.content-img img{
+    width: 23%;
+    border-radius: 1.5rem;
+}
+@media(max-width: 600px){
+    .content-info{
+        flex-wrap: wrap;
+    }
+    .nav-list{
+        position: absolute;
+        top: -5555px;
+    }
+}
 
 
 /*===============Tarjets 01================*/
@@ -92,7 +112,7 @@ main{
     position: absolute;
     top: -9rem;
     justify-content: center;
-    
+    margin: auto 5%;
 }
 .tarjet{
     background-color: rgba(255, 208, 0, 0.719);
@@ -112,14 +132,16 @@ main{
     top: -9rem;
 }
 
-@media(max-width: 942px){
+@media(max-width: 1056px){
     .main-section{
         height: auto;
+        
     }
     .section-tarjets{
         position:relative;
         top: 0;
         flex-wrap: wrap;
+        margin: auto auto;
     }
 }
 @media(max-width: 600px){
@@ -157,16 +179,56 @@ main{
 /*===================Section 02 ===============*/
 .section-tarjets-info{
     display: flex;
+    height: auto;
+    
 }
 .tarjet-info{
     background-color:  rgb(34, 34, 34);
     width:30%;
-    height: 25rem;
+    height: auto;
     margin: 1rem;
     padding: 1rem;
     color: white;
     text-align: center;
 }
+.formulario{
+    margin: 2rem;
+    text-align: left;
+}
+.formulario input{
+    width: 100%;
+    height: 2rem;
+    margin: 1rem auto;
+}
+.formulario textarea{
+    width: 100%;
+    margin: 1rem auto;
+}
+.metasObjetivos{
+    margin: 10%;
+    text-align: left;
+}
+.metasObjetivos p{
+    padding: 0.5rem;
+    width: 100%;
+}
+.metasObjetivos svg{
+    color: rgb(255, 217, 0);
+    margin-right: 20px
+}
+.tarjet-info h1{
+    color: rgb(255, 196, 0);
+}
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 886px){
     .section-tarjets-info{
         flex-wrap: wrap;
@@ -175,6 +237,25 @@ main{
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*==================== FOOTER =================*/
 footer{
     background-color: black;
