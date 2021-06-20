@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>botones</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+    <div class="container bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TECNOLOGY</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Memu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Categorias</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Informacion
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Catalogo</a></li>
+                      <li><a class="dropdown-item" href="#">Stock</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Cotizaciones</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+        <div class="main my-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+	
+    <div class="contenedor">
+        <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Marca</th>
+                <th scope="col">procesador</th>
+                <th scope="col">ram</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>hp 250 g7</td>
+                <td>intel i7 10th</td>
+                <td>8gb</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>lenovo v14-are</td>
+                <td>intel i3 10th</td>
+                <td>4gb</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Acer aspirer 5 </td>
+                <td>intel i5 10th</td>
+                <td>12gb</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <div class="tarjetas my-4">
+
+        <div class="contenedor">    
+            <div class="card" style="width: 18rem;">
+                <img src="img/img-laptop06.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LAPTOP GAMING</h5>
+                  <p class="card-text">ASUS TUF FX505G , INTEL I7 9750H , RAM 8GB , SSD 512GB , NVIDIA (4GB)</p>
+                  <a href="#" class="btn btn-primary">PRECIO: S/.5700</a>
+                </div>
+              </div>
+        </div>
+        <div class="contenedor">    
+            <div class="card" style="width: 18rem;">
+                <img src="img/img-laptop01.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LAPTOP GAMING</h5>
+                  <p class="card-text">MSI 56GF , INTEL CORE I7 7MA GEN , RAM 16GB , SSD 256GB , T. VIDEO R7 2GB</p>
+                  <a href="#" class="btn btn-primary">PRECIO: S/.5700</a>
+                </div>
+              </div>
+        </div>
+        <div class="contenedor">    
+            <div class="card" style="width: 18rem;">
+                <img src="img/img-laptop03.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LAPTOP GAMING</h5>
+                  <p class="card-text"> AMD  RYZEN 5 3500U , RAM 8GB , SSD 256 , T. VIDEO RADEON GRAPHICS </p>
+                  <a href="#" class="btn btn-primary">PRECIO: S/.5400</a>
+                </div>
+              </div>
+        </div>
+        <div class="contenedor">    
+            <div class="card" style="width: 18rem;">
+                <img src="img/img-laptop04.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LAPTOP GAMING</h5>
+                  <p class="card-text">HP PAVILION GAMING 15-DK1023LA,INTEL I7 10MA,12GB DE RAM,256GB SSD,15.6" </p>
+                  <a href="#" class="btn btn-primary">PRECIO: S/.6700</a>
+                </div>
+              </div>
+        </div>
+        <div class="contenedor">    
+            <div class="card" style="width: 18rem;">
+                <img src="img/img-laptop05.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">LAPTOP GAMING</h5>
+                  <p class="card-text">HP PAVILION GAMING 15-DK1023LA,INTEL I7 10MA,12GB DE RAM,256GB SSD,15.6" FHD</p>
+                  <a href="#" class="btn btn-primary">PRECIO: S/.5900</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="container p-3" style="border: 3px dotted rgb(255, 255, 255);">
+		<button type="button" class="btn btn-primary">
+			Visitas <span class="badge bg-secondary">4</span>
+		  </button>
+	</div>
+	<div class="container p-3" style="border: 3px dotted rgb(255, 255, 255);">
+		<button type="button" class="btn btn-primary">
+			Notificaicones <span class="badge bg-secondary">9</span>
+			<span class="visually-hidden">unread messages</span>
+		  </button>
+	</div>
+	
+	<div class="container p-3" style="border: 3px dotted rgb(255, 255, 255);">
+		<span class="badge bg-success">Éxito</span>
+		<span class="badge bg-light text-dark">Light</span>
+		<span class="badge bg-danger">Peligro</span>
+	</div>
+
+	<div class="container p-3" style="border: 3px dotted rgb(255, 255, 255);">
+		<span class="badge rounded-pill bg-primary">Primario</span>
+		<span class="badge rounded-pill bg-secondary">Segundario</span>
+		<span class="badge rounded-pill bg-danger">Peligro</span>
+	</div>
+
+    <br>
+    <br><br>
+    <br><br>
+    <br>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
